@@ -25,6 +25,7 @@ export default function Destaque(){
             <div class="card-body" />
               <h5 class="card-title">{atividade.nome}</h5>
               <p class="card-text">{atividade.genero}</p>
+              <Link to="/detalhe">ver mais</Link>
               </div>
             </div>
          ))}
